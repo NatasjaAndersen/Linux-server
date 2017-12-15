@@ -16,39 +16,39 @@ Indholdsfortegnelsen vil hjælpe dig med at springe rundt til det emne der er re
 Det første du gør er at gå ind på hjemmesiden digitalocean.com når du er derinde vil du se en blå knap hvor du kan oprette dig osm bruger (sign up), følg trinene i oprettelses processen og du er 'good to go' 
 Vær dog opmærksom på at du *skal* angive dine kortoplysninger, nogle kan være imod dette men alternativerne er få men du kan prøve at tage et kig på "Herokuu" hvis det er, jeg vil dog kun fokusere på Digital Ocean. 
 
-Når du er oprettet kan du trykke på den grønne knap "Create" der vil komem en dropdown menu frem og i den vælger du "Create new Droplet" en droplet er det samme som en server. 
+Når du er oprettet kan du trykke på den grønne knap "Create" der vil komme en dropdown menu frem og i den vælger du "Create new Droplet" en droplet er det samme som en server. 
 
-Nu vil der komme en masse valgmuligheder jeg vil anbefale at du kører med "centOS" 6.9 X32 Næste skridt er at vælge størrelsne på serveren, hvis du bare skal uploade små projektet er 5$/month mere end rigeligt til dig. Du springer bare punktet "Bloakge Storage" over for nu, det næste du skal er at vælge en host placering, vælg gerne det der er tættest på din lokation, tallene er ligemeget det er bare hvilket server nummer din server vil være hostet fra. Du springer bare over punkterne "Select additional options" og "Add SSH keys"
-Til sidst navngiver du abre din droplet, default settings er nogle mærkelige navne som du burde undgå, antal er naturligvis op til dig men jeg skal som regel kun bruge en droplet. 
+Nu vil der komme en masse valgmuligheder jeg vil anbefale at du kører med "centOS" 6.9 X32 Næste skridt er at vælge størrelsen på serveren, hvis du bare skal uploade små projektet er 5$/month mere end rigeligt til dig. Du springer bare punktet "Blockage Storage" over for nu, det næste du skal er at vælge en host placering, vælg gerne det der er tættest på din lokation, tallene er ligemeget det er bare hvilket server nummer din server vil være hostet fra. Du springer bare over punkterne "Select additional options" og "Add SSH keys"
+Til sidst navngiver du bare din droplet, default settings er nogle mærkelige navne som du burde undgå, antal er naturligvis op til dig men jeg skal som regel kun bruge en droplet. 
 
-Når du ahr gjort det vil du blive først over til en side hvor du kan se alle dine droplets, derinde vil din nye droplet blive tændt på default når den er færdig med at oprette. 
+Når du har gjort det vil du blive først over til en side hvor du kan se alle dine droplets, derinde vil din nye droplet blive tændt på default når den er færdig med at oprette. 
 
-Hvis du vil direkte videre til punkt to skal du bare være din droplet være tændt og gå videre til punkt 2. 
+Hvis du vil direkte videre til punkt to skal du bare lade din droplet være tændt og gå videre til punkt 2. 
 
 ---------------------------
 
 # 2 Download putty
-Det næste skridt i processen er at downlaode et program der hedder putty, det er en lille terminal der er nødvendig for at kunne udføre diverse kommandoer og til at forbinde din droplet med dit projekt på Github. 
+Det næste skridt i processen er at downloade et program der hedder putty, det er en lille terminal der er nødvendig for at kunne udføre diverse kommandoer og til at forbinde din droplet med dit projekt på Github. 
 
 Du går ind på følgende link: http://www.putty.org/
-Derinde trykker du på det første link du ser I den tredje fase trykker du på (sreenshot på vej)
+Derinde trykker du på det første link du ser I den tredje fase trykker du på (screenshot på vej)
 
 Nu følger du bare installationsprocessen indtil den er installeret.
 
-Når putty er installeret skal du lgie tilbage til Digital Ocean og hente ip adressen på din droplet, det gør du ved at gå ind på digitalocean.com -> log ind -> fanen droplets -> tryk på navnet på din droplet (eller den droplet du vil tilføje hvis du har flere droplets) -> Tjek at dropleten står på "on" 
-Hvis alle tingene er som de skal være kan du se en ip adresse der hedder ipv4 helt til venstre den ip kopiere du og indsætte i den øverste input linje i din putty applikation. 
+Når putty er installeret skal du lige tilbage til Digital Ocean og hente ip adressen på din droplet, det gør du ved at gå ind på digitalocean.com -> log ind -> fanen droplets -> tryk på navnet på din droplet (eller den droplet du vil tilføje hvis du har flere droplets) -> Tjek at dropleten står på "on" 
+Hvis alle tingene er som de skal være kan du se en ip adresse der hedder ipv4 helt til venstre den ip kopierer du og indsætter i den øverste input linje i din putty applikation. 
 
-Derefter givre du din ip et navn (det vil jeg anbefale i hvert fald) når du har gjort det trykker du på knappen "save" helt til højre når det er gjort kan du trykke på "load" og derefter "open" i bunden.
+Derefter giver du din ip et navn (det vil jeg anbefale i hvert fald) når du har gjort det trykker du på knappen "save" helt til højre når det er gjort kan du trykke på "load" og derefter "open" i bunden.
 
 ----------------------
 
 # 3 Opsæt putty med dg og dit projekt
-Det første der sker når du har åbnet din putty konsole r at den beder om et brugernavn her er default altså bare "root" dernæst vil den spørge dig om et førstegangs-kodeord som er blevet sendt til den email du har oprettet dig med på digitalocean
+Det første der sker når du har åbnet din putty konsol er at den beder om et brugernavn her er default altså bare "root" dernæst vil den spørge dig om et førstegangs-kodeord som er blevet sendt til den email du har oprettet dig med på digitalocean
 
 Når du ha råbnet den email vil du se en lang kode dne kopierer du ved at markere den med musemarkøren og så højreklikke og tryk 'kopier' eller trykke ctr + c, derefter går du ind i din putty konsol igen og paster den ind ved at højreklikke én gang med din mus. 
-OBS! Du kan *IKKE* se koden, det er altså ikke fordi der er noget galt men fordi det er sikkerhed, når du har sat koden in trykker du på enter tasten, herefter spørger den om et UNIX kodeord og der indsætter du den samme kdoe som du lige har sat ind forinden.
+OBS! Du kan *IKKE* se koden, det er altså ikke fordi der er noget galt men fordi det er sikkerhed, når du har sat koden ind trykker du på enter tasten, herefter spørger den om et UNIX kodeord og der indsætter du den samme kdoe som du lige har sat ind forinden.
 
-Derefter spørger putty dig om en kdoe som *DU* laver, det er altså denne kdoe du fremover skal logge ind med og ikek den du har hentet fra emailen, så husk ast skriv koden ned. 
+Derefter spørger putty dig om en kode som *DU* laver, det er altså denne kode du fremover skal logge ind med og ikke den du har hentet fra emailen, så husk ast skriv koden ned. 
 
 Nu er du klar til at opsætte selve serveren, det allerførste vi skal have fat i er en simpel editor, du kan sagtens nøjes med en simpel en som hedder nano, den første kommando du skriver vil altså være 
 ```js
