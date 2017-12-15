@@ -237,7 +237,7 @@ Det kan godt være du er nødt til at genstarte din Putty server process.
 # 5 Bugfixes
 Nu er det jo sådan at der kan opstå fejl når man arbejder med teknisk udstyr, og det samme er altså tilfældet med putty og workbench. Jeg vil liste nogle af de fejl jeg har oplevet med nogle løsnings forslag som du/I forhåbentlig kan bruge ellers må du/I meget gerne kontakte mig så kan vi jo prøve at løse det sammen? 
 
-### 1) Du får en fejl ved database import (Så dine tabeller der indeholder fields med "CURRENT_TIMESTAMP" ikke bliver importeret) 
+### 1) Du får en fejl ved database import (Så dine tabeller der indeholder fields med "CURRENT_TIMESTAMP" ikke bliver importeret.) 
 
 *Hvis du oplever en importfejl i den grad er det faktisk en alvorlig fejl da nogle af dine tabeller lige pludselig ikke bliver importeret, for at løse det er du nødt til at gå tilbage til den database der ligger på localhost, når du har valgt den database går du op i fanen der hedder "query 1" og indsætter følgende kommando*
 ```js
