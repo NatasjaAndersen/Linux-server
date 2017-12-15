@@ -12,7 +12,7 @@ Indholdsfortegnelsen vil hjælpe dig med at springe rundt til det emne der er re
 
 -------------------------
 
-## 1 Oprettels epå Digital Ocean (DG)
+## 1 Oprettelse på Digital Ocean (DG)
 Det første du gør er at gå ind på hjemmesiden digitalocean.com når du er derinde vil du se en blå knap hvor du kan oprette dig osm bruger (sign up), følg trinene i oprettelses processen og du er 'good to go' 
 Vær dog opmærksom på at du *skal* angive dine kortoplysninger, nogle kan være imod dette men alternativerne er få men du kan prøve at tage et kig på "Herokuu" hvis det er, jeg vil dog kun fokusere på Digital Ocean. 
 
@@ -86,7 +86,7 @@ Derefter skriver du
 ```js
 yum install nodejs
 ```
-DErnæst
+Dernæst
 ```js
 yum install npm
 ```
